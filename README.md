@@ -8,7 +8,7 @@ The source code is in the `odometry.cpp` file, along with that I have also writt
 cpp file for easier integration. 
 
 The implementation also, includes a function to make the robot translate by a distance and rotate by an angle input
-the `Odometry.py` file has the function `dist_corr()` and `angle_corr()` that take in distance and 
+the `odometry.py` file has the function `dist_corr()` and `angle_corr()` that take in distance and 
 angle input along with the direction of rotation from motors. 
 
 Further understanding the use of encoder wraparound used in the source file for odometry calculations 
